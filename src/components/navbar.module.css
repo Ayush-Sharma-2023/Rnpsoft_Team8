@@ -3,12 +3,19 @@
     background-color: #020715;
     display: flex;
     width: 105rem;
-    gap: 60rem;
+    gap: 58rem;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
     .navbar {
-      gap: 30rem;/* Adjusted gap for smaller screens */
+      gap: 33rem;/* Adjusted gap for smaller screens */
+      width: 92rem;
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width:375px){
+    .navbar {
+      gap: 43rem;/* Adjusted gap for smaller screens */
       width: 92rem;
     }
   }
@@ -26,17 +33,27 @@
       width: 125rem;
     }
   }
+
+  @media screen and (min-width: 2560px){
+    .navbar {
+      gap: 110rem;/* Adjusted gap for smaller screens */
+      width: 160rem;
+    }
+  }
+
 .rnp_logo {
     background-image: url(../images/RNPLOGO.svg.png);
-    width: 120px;
+    width: 150px;
     height: 27.28px;
     top: 26.44px;
-    left: 24px;
+    left: 10px;
     position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .contact_info {
-    width: 700px;
+    width: 600px;
     display: flex;
     gap: 30px;
 }

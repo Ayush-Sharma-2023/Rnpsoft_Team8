@@ -23,6 +23,11 @@
     }
   }
 
+  @media screen and (min-width: 2560px){
+    .backgr {
+      width: 160rem;
+    }
+  }
 
 .anchor {
     background-image: url(../images/anchor_img.png);
