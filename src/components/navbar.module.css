@@ -8,12 +8,12 @@
 
 @media screen and (max-width: 380px) {
     .navbar {
-      gap: 40rem;/* Adjusted gap for smaller screens */
+      gap: 30rem;/* Adjusted gap for smaller screens */
       width: 92rem;
     }
   }
 
-  @media screen and (min-width: 380px) and (max-width: 418px) {
+  @media screen and (min-width: 381px) and (max-width: 418px) {
     .navbar {
       gap: 40rem;/* Adjusted gap for smaller screens */
       width: 85rem;
