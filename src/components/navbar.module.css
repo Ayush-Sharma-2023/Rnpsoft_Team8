@@ -73,9 +73,9 @@
     background-color: transparent;
 }
 
-/* .contact_info_content p{
+.contact_info_content p{
   width: max-content;
-} */
+}
 
 .contact_info_button {
     background: linear-gradient(94.33deg, #4050F2 0%, #451DB8 100%);
