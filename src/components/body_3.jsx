@@ -1,4 +1,5 @@
 import style from "./body_3.module.css"
+import kalingaVideo from '../images/kalinga_ai.mp4';
 
 
 function Body_3() {
@@ -13,7 +14,12 @@ function Body_3() {
                 bfehhirier, erhehrereuryeuoy ehoahoo hoiwri  iuierierrer
             </div>
             <br/><br/>
-            <div className={style.video}></div>
+
+            <video autoPlay loop muted className="video">
+        <source src={kalingaVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+            
             
                 
                 
