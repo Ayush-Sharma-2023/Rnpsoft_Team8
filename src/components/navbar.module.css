@@ -3,7 +3,7 @@
     background-color: #020715;
     display: flex;
     width: 105rem;
-    gap: 58rem;
+    gap: 60rem;
 }
 
 @media screen and (max-width: 320px) {
@@ -43,7 +43,7 @@
 
 .rnp_logo {
     background-image: url(../images/RNPLOGO.svg.png);
-    width: 150px;
+    width: 130px;
     height: 27.28px;
     top: 26.44px;
     left: 10px;
@@ -53,7 +53,7 @@
 }
 
 .contact_info {
-    width: 750px;
+    width: 600px;
     height: 80px;
     display: flex;
     gap: 30px;
@@ -71,7 +71,10 @@
     top: 27.44px;
     position: relative;
     background-color: transparent;
+}
 
+.contact_info_content p{
+  width: fit-content;
 }
 
 .contact_info_button {
