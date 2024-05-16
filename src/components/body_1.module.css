@@ -5,9 +5,18 @@
     background-color: black;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
     .backgr {
-      width: 90rem;
+      width: 78rem;
+    }
+    .anchor_info2{
+      left: 530px;
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width:379px){
+    .backgr {
+      width: 92rem;
     }
   }
 
@@ -17,7 +26,7 @@
     }
   }
 
-  @media screen and (min-width: 1711px){
+  @media screen and (min-width: 1711px) and (max-width:2559px){
     .backgr {
       width: 125rem;
     }

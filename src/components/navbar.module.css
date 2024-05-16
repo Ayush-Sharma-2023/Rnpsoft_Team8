@@ -8,12 +8,12 @@
 
 @media screen and (max-width: 320px) {
     .navbar {
-      gap: 33rem;/* Adjusted gap for smaller screens */
-      width: 92rem;
+      gap: 32rem;/* Adjusted gap for smaller screens */
+      width: 79rem;
     }
   }
 
-  @media screen and (min-width: 321px) and (max-width:375px){
+  @media screen and (min-width: 321px) and (max-width:379px){
     .navbar {
       gap: 43rem;/* Adjusted gap for smaller screens */
       width: 92rem;
@@ -27,7 +27,7 @@
     }
   }
 
-  @media screen and (min-width: 1711px){
+  @media screen and (min-width: 1711px) and (max-width:2559){
     .navbar {
       gap: 80rem;/* Adjusted gap for smaller screens */
       width: 125rem;
@@ -74,7 +74,7 @@
 }
 
 .contact_info_content p{
-  width: fit-content;
+  width: max-content;
 }
 
 .contact_info_button {
