@@ -1,19 +1,37 @@
 .navbar {
-    height: 80px;
+    height: 5rem;
     background-color: #020715;
     display: flex;
-    width: 100%;
-    gap: 970px;
+    width: 105rem;
+    gap: 60rem;
 }
 
+@media screen and (max-width: 380px) {
+    .navbar {
+      gap: 47rem;/* Adjusted gap for smaller screens */
+      width: 92rem;
+    }
+  }
+
+  @media screen and (min-width: 380px) and (max-width: 418px) {
+    .navbar {
+      gap: 40rem;/* Adjusted gap for smaller screens */
+      width: 85rem;
+    }
+  }
+
+  @media screen and (min-width: 1711px){
+    .navbar {
+      gap: 80rem;/* Adjusted gap for smaller screens */
+      width: 125rem;
+    }
+  }
 .rnp_logo {
     background-image: url(../images/RNPLOGO.svg.png);
     width: 120px;
     height: 27.28px;
     top: 26.44px;
     left: 24px;
-    gap: 0px;
-    opacity: 0px;
     position: relative;
 }
 

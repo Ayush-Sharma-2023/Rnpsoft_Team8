@@ -1,9 +1,28 @@
 .backgr {
     background-image: url(../images/background_img.png);
-    width: 100%;
+    width: 105rem;
     height: 600px;
     background-color: black;
 }
+
+@media screen and (max-width: 380px) {
+    .backgr {
+      width: 90rem;
+    }
+  }
+
+  @media screen and (min-width: 380px) and (max-width: 418px) {
+    .backgr {
+      width: 85rem;
+    }
+  }
+
+  @media screen and (min-width: 1711px){
+    .backgr {
+      width: 125rem;
+    }
+  }
+
 
 .anchor {
     background-image: url(../images/anchor_img.png);
