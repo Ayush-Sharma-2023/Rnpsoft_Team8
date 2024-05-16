@@ -15,10 +15,10 @@ function Body_3() {
             </div>
             <br/><br/>
 
-            <video autoPlay loop muted className="video">
-        <source src={kalingaVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+            <video autoPlay loop muted controls className="video">
+            <source src={kalingaVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+            </video>
             
             
                 
