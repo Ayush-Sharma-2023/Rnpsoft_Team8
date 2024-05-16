@@ -1,0 +1,48 @@
+.navbar {
+    height: 80px;
+    background-color: #020715;
+    display: flex;
+    width: 100%;
+    gap: 970px;
+}
+
+.rnp_logo {
+    background-image: url(../images/RNPLOGO.svg.png);
+    width: 120px;
+    height: 27.28px;
+    top: 26.44px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+.contact_info {
+    display: flex;
+    gap: 30px;
+}
+
+.contact_info_content {
+    display: flex;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    height: 24px;
+    top: 27.44px;
+    position: relative;
+    background-color: transparent;
+}
+
+.contact_info_button {
+    background: linear-gradient(94.33deg, #4050F2 0%, #451DB8 100%);
+    width: 137.88px;
+    height: 50.8px;
+    top: 14.44px;
+    border-radius: 63px;
+    position: relative;
+    border: 0px solid transparent;
+    color: #FFFFFF;
+}
