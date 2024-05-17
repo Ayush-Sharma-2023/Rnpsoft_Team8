@@ -15,10 +15,7 @@ function Body_3() {
             </div>
             <br/><br/>
 
-            {/* <video autoPlay loop muted controls className="video">
-            <source src={kalingaVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-            </video> */}
+           
 
             <div className={style.video_container}>
                 <video autoPlay loop muted controls className={style.video}>
