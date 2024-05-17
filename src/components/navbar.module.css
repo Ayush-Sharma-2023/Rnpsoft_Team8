@@ -1,89 +1,89 @@
 .navbar {
-    height: 5rem;
-    background-color: #020715;
-    display: flex;
-    width: 105rem;
-    gap: 60rem;
+  height: 5rem;
+  background-color: #020715;
+  display: flex;
+  width: 105rem;
+  gap: 60rem;
 }
 
 @media screen and (max-width: 320px) {
-    .navbar {
-      gap: 32rem;/* Adjusted gap for smaller screens */
-      width: 79rem;
-    }
+  .navbar {
+    gap: 32rem; 
+    width: 79rem;
   }
+}
 
-  @media screen and (min-width: 321px) and (max-width:379px){
-    .navbar {
-      gap: 43rem;/* Adjusted gap for smaller screens */
-      width: 92rem;
-    }
+@media screen and (min-width: 321px) and (max-width: 379px) {
+  .navbar {
+    gap: 43rem; 
+    width: 92rem;
   }
+}
 
-  @media screen and (min-width: 381px) and (max-width: 418px) {
-    .navbar {
-      gap: 40rem;/* Adjusted gap for smaller screens */
-      width: 85rem;
-    }
+@media screen and (min-width: 381px) and (max-width: 418px) {
+  .navbar {
+    gap: 40rem; 
+    width: 85rem;
   }
+}
 
-  @media screen and (min-width: 1711px) and (max-width:2559){
-    .navbar {
-      gap: 80rem;/* Adjusted gap for smaller screens */
-      width: 125rem;
-    }
+@media screen and (min-width: 1711px) and (max-width: 2559) {
+  .navbar {
+    gap: 80rem; 
+    width: 125rem;
   }
+}
 
-  @media screen and (min-width: 2560px){
-    .navbar {
-      gap: 110rem;/* Adjusted gap for smaller screens */
-      width: 160rem;
-    }
+@media screen and (min-width: 2560px) {
+  .navbar {
+    gap: 110rem; 
+    width: 160rem;
   }
+}
 
 .rnp_logo {
-    background-image: url(../images/RNPLOGO.svg.png);
-    width: 130px;
-    height: 27.28px;
-    top: 26.44px;
-    left: 10px;
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url(../images/RNPLOGO.svg.png);
+  width: 130px;
+  height: 27.28px;
+  top: 26.44px;
+  left: 10px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .contact_info {
-    width: 600px;
-    height: 80px;
-    display: flex;
-    gap: 30px;
+  width: 600px;
+  height: 80px;
+  display: flex;
+  gap: 30px;
 }
 
 .contact_info_content {
-    display: flex;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    color: #FFFFFF;
-    height: 24px;
-    top: 27.44px;
-    position: relative;
-    background-color: transparent;
+  display: flex;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  height: 24px;
+  top: 27.44px;
+  position: relative;
+  background-color: transparent;
 }
 
-.contact_info_content p{
+.contact_info_content p {
   width: max-content;
 }
 
 .contact_info_button {
-    background: linear-gradient(94.33deg, #4050F2 0%, #451DB8 100%);
-    width: 137.88px;
-    height: 50.8px;
-    top: 14.44px;
-    border-radius: 63px;
-    position: relative;
-    border: 0px solid transparent;
-    color: #FFFFFF;
+  background: linear-gradient(94.33deg, #4050f2 0%, #451db8 100%);
+  width: 137.88px;
+  height: 50.8px;
+  top: 14.44px;
+  border-radius: 63px;
+  position: relative;
+  border: 0px solid transparent;
+  color: #ffffff;
 }
