@@ -59,9 +59,9 @@
   gap: 30px;
 }
 
-.contact_info_content:hover{
+/* .contact_info_content:hover{
   cursor: pointer;
-}
+} */
 
 .contact_info_content {
   display: flex;
