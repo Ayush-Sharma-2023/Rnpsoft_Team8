@@ -17,6 +17,7 @@ function Body_2() {
   return (
     <>
       <div className={style.backgr}>
+        <br></br>
         <div className={style.Features}>Features</div>
         <br />
         <br />
