@@ -8,12 +8,13 @@
 
 @media screen and (max-width: 320px) {
   .navbar {
-    gap: 32rem; 
-    width: 79rem;
+    width: 100%;
+    gap: 0px;
+    height: 3rem;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 379px) {
+@media screen and (min-width: 325px) and (max-width: 379px) {
   .navbar {
     gap: 43rem; 
     width: 92rem;
@@ -52,13 +53,29 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 320px) {
+  .rnp_logo {
+    width: 80px;
+    height: 30px;
+    position:relative;
+    top: 18px;
+    left: 5px;
+  }
+}
+
 .contact_info {
   width: 600px;
   height: 80px;
   display: flex;
   gap: 30px;
+  visibility: visible;
 }
 
+@media screen and (max-width: 320px) {
+  .contact_info {
+    display: none;
+  }
+}
 /* .contact_info_content:hover{
   cursor: pointer;
 } */
@@ -90,4 +107,23 @@
   position: relative;
   border: 0px solid transparent;
   color: #ffffff;
+}
+
+.dropDown {
+  height: 25px;
+  width: 25px;
+  background: linear-gradient(94.33deg, #4050f2 0%, #451db8 100%);
+  color: white;
+  display: none;
+  border-radius: 5px;
+  border: transparent;
+}
+
+@media screen and (max-width: 320px) {
+  .dropDown {
+    display: block;
+    position: relative;
+    left: 200px;
+    top: 12px;
+  }
 }

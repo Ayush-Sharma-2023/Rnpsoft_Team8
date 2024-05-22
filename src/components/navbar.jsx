@@ -13,6 +13,7 @@ function Navbar(){
             <div className={style.contact_info_content}><p>Careers</p></div>
             <button className={style.contact_info_button}>Contact us</button>
         </div>
+        <button className={style.dropDown}><i class="fa-solid fa-bars"></i></button>
     </div>
     </>)
 }

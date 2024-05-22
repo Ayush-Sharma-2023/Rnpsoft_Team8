@@ -14,7 +14,7 @@ function Body_1() {
                     tailored to your unique requirements. Our team of expert
                     developers and engineers are committed to turning your vision
                     into reality. Whether you need robust software to streamline
-                    your business processes or intuitive applications to engage </div>
+                    your business processes or intuitive applications to engage. </div>
             </div>
         </>
     )
