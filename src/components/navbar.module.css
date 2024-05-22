@@ -63,6 +63,19 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .rnp_logo {
+    width: 80px;
+    height: 30px;
+    position:relative;
+    top: 18px;
+    left: 5px;
+  }
+}
+
+.rnp_logo:hover{
+  cursor: pointer;
+}
 .contact_info {
   width: 600px;
   height: 80px;
@@ -71,14 +84,14 @@
   visibility: visible;
 }
 
-@media screen and (max-width: 320px) {
-  .contact_info {
-    display: none;
-  }
-}
-/* .contact_info_content:hover{
+contact_info_content:hover{
   cursor: pointer;
-} */
+  color: gray;
+
+  
+  
+  
+}
 
 .contact_info_content {
   display: flex;
