@@ -30,16 +30,17 @@ font-family: Poppins;
 
   .container {
     display: grid;
-    justify-content: flex-end; /* This aligns items to the right */
+    justify-content: flex-end; 
     /* text-align: right; */
-    align-items: center; /* This centers items vertically (optional) */
+    align-items: center;
     padding-right: 15rem;
   }
 
   .video_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
-    gap: 1rem; /* Adjust the gap between the videos as needed */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+    padding-left: 4rem;
   }
 
   .video {
@@ -48,6 +49,7 @@ font-family: Poppins;
     
     box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.3);
     border-radius: 10px;
+    
   }
 
   .video:hover{

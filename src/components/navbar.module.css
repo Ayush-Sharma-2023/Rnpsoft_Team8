@@ -31,11 +31,7 @@
   visibility: visible;
 }
 
-.contact_info_content:hover{
-  cursor: pointer;
-  color: #8800FF;
-  ;
-}
+
 
 .contact_info_content {
   display: flex;
@@ -48,7 +44,15 @@
   height: 24px;
   top: 27.44px;
   position: relative;
-  background-color: transparent;
+  background-color: black;
+}
+.contact_info_content:hover{
+  cursor: pointer;
+   
+  
+}
+.contact_info_content p:hover{
+  color: #8800ff;    
 }
 
 .contact_info_content p {

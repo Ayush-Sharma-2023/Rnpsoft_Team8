@@ -14,20 +14,28 @@ function multilingual()
             <br/ ><br/ ><br/ ><br/ ><br/ ><br/ ><br/ ><br/ ><br/ ><br/ >
 
             <div className={style.video_container}>
-            <video autoPlay loop muted controls className={style.video}>
-            <source src={kalingaVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
 
-          <video autoPlay loop muted controls className={style.video}>
+                <a href="https://youtu.be/ysTSjxpc8f8?feature=shared" target="blank">
+                <video autoPlay loop muted controls className={style.video}>
             <source src={kalingaVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+                </a>
+                <a href="https://youtu.be/ysTSjxpc8f8?feature=shared" target="blank">
+                <video autoPlay loop muted controls className={style.video}>
+            <source src={kalingaVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+                </a>
+                <a href="https://youtu.be/ysTSjxpc8f8?feature=shared" target="blank">
+                <video autoPlay loop muted controls className={style.video}>
+            <source src={kalingaVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+                </a>
+            
 
-          <video autoPlay loop muted controls className={style.video}>
-            <source src={kalingaVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+
           
         </div>
 
