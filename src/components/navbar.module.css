@@ -63,7 +63,17 @@
   width: max-content;
 }
 
+.contact_info_content p a{
+  text-decoration: none;
+  color: white;
+}
+
 .contact_info_content p:hover{
+  cursor: pointer;
+  color: #8800FF;
+}
+
+.contact_info_content p a:hover{
   cursor: pointer;
   color: #8800FF;
 }
