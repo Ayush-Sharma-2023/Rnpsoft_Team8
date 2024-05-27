@@ -93,7 +93,7 @@
   border: transparent;
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
 
   .navbar {
     width: 100%;
@@ -166,4 +166,4 @@
     top: 18px;
     left: 5px;
   }
-}
+} */
