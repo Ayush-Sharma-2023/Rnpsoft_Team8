@@ -79,6 +79,10 @@
   color: #ffffff;
 }
 
+.contact_info_button:hover{
+  cursor: pointer;
+}
+
 .dropDown {
   height: 25px;
   width: 25px;
