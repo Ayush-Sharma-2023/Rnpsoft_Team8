@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('./images/contactus-background.svg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.page-container {
+    text-align: center;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 81.85px;
+    font-weight: 800;
+    line-height: 122.77px;
+    letter-spacing: -0.03em;
+    background: linear-gradient(90deg, #FFFFFF 0%, #9A84D8 71.5%, #451DB8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    text-fill-color: transparent;
+    margin: 0;
+    text-align: center;
+}
+
+.header .intro-text {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    margin-top: 10px;
+    text-align: center;
+    color: #aaa;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1103px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.left-section, .right-section {
+    flex: 1 1 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.left-section h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #2c2c2c;
+    color: white;
+    width: 100%;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 400;                   
+    font-size: 15px;                  
+    line-height: 22.5px;                
+    letter-spacing: -1%;   
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: #888;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #763AF5 0%, #451DB8 117.18%);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, #6a33cc 0%, #3d1c91 117.18%);
+}
+
+
+.response-time {
+    margin-top: 10px;
+    color: #aaa;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .left-section, .right-section {
+        flex: 1;
+    }
+}
