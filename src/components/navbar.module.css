@@ -30,7 +30,8 @@
 
 .contact_info_content:hover{
   cursor: pointer;
-  color: gray;
+  color: #8800FF;
+  ;
 }
 
 .contact_info_content {
