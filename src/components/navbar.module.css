@@ -4,6 +4,9 @@
   display: flex;
   width: 105rem;
   gap: 60rem;
+  position: fixed;
+  z-index: 1000;
+  
 }
 
 .rnp_logo {
