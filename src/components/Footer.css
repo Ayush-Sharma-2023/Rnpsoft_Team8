@@ -46,6 +46,9 @@
   .icon{
     margin: 20 50px;
   }
+  .icon:hover{
+    cursor: pointer;
+  }
   
   /* .social-icons a:hover {
     color: #ddd;

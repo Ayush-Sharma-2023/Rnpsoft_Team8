@@ -34,11 +34,11 @@ function Footer()  {
         <div className="footer-section social">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <i className="icon "> <FaInstagram  /></i>
-            <i className="icon "> <FaWhatsapp  /></i>
-            <i className="icon "> < CiLinkedin /></i>
-            <i className="icon "> < FaXTwitter /></i>
-            <i className="icon "> < FiYoutube /></i>
+            <i className="icon " onClick={() => window.open("https://www.instagram.com/rnpsoft?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D", "_blank")}> <FaInstagram  /></i>
+            <i className="icon " onClick={() => window.open("https://wa.me/+919938512307", "_blank")}> <FaWhatsapp  /></i>
+            <i className="icon " onClick={() => window.open("https://www.linkedin.com/company/rnpsoft/", "_blank")}> < CiLinkedin /></i>
+            <i className="icon " onClick={() => window.open("https://twitter.com/RnPsoft?t=cIoqKXakq6wW4rKuVAU9Bg&s=09", "_blank")}> < FaXTwitter /></i>
+            <i className="icon " onClick={() => window.open("https://youtube.com/@RnPsoft?si=HLyLaLsNfaNXFqeF", "_blank")}> < FiYoutube /></i>
           </div>
         </div>
       </div>
