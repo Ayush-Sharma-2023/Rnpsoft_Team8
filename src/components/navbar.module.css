@@ -142,28 +142,19 @@
     left: 5px;
   }
 }
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
+*/
+/* @media screen and (min-width: 376px) and (max-width: 425px) {
 
   .navbar {
     width: 100%;
-    gap: 0px;
+    gap: 30px;
     height: 3rem;
   }
-  .dropDown {
-    display: block;
-    position: relative;
-    left: 200px;
-    top: 12px;
-  }
-  .contact_info{
-    display: none;
-  }
-  .rnp_logo {
+
+  .rnp_logo{
+    height: 17px;
     width: 80px;
-    height: 30px;
-    position:relative;
-    top: 18px;
     left: 5px;
+    top: 15px;
   }
-} */
+}  */
