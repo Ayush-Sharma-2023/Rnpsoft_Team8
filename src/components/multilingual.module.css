@@ -7,3 +7,55 @@
     background-repeat: repeat;
     background-size: cover;
   }
+
+  h1{
+    font-family: Poppins;
+font-size: 58.36px;
+font-weight: 800;
+line-height: 87.55px;
+letter-spacing: -0.03em;
+text-align: center;
+font-family: Poppins;  
+  background-image: linear-gradient(90deg, #FFFFFF 0%, #9A84D8 71.5%, #451DB8 100%);  
+  /* -webkit-background-clip: text; */
+  background-clip: text;
+  color: transparent;
+
+  }
+  p{
+        font-family: Poppins;
+        color: white;
+        text-align: center;
+  }
+
+  .container {
+    display: grid;
+    justify-content: flex-end; /* This aligns items to the right */
+    /* text-align: right; */
+    align-items: center; /* This centers items vertically (optional) */
+    padding-right: 15rem;
+  }
+
+  .video_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 1rem; /* Adjust the gap between the videos as needed */
+  }
+
+  .video {
+    max-width: 90%;
+    max-height: 90%;
+    
+    box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+
+  .video:hover{
+    box-shadow: none;
+  }
+  
+  /* .video-container video {
+    width: 100%; 
+  } */
+  
+  
