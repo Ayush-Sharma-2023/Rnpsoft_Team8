@@ -1,7 +1,7 @@
 .backgr {
-  background-image: url(../images/background_img.png);
-  width: 105rem;
-  height: 600px;
+  background-image: url(../images/background.svg);
+  width: 100%;
+  height: 950px;
   background-color: black;
 }
 
@@ -29,28 +29,50 @@
     }
   } */
 
+
+.glow_circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: #020715;
+  border: 10px solid rgb(106, 62, 157);
+  z-index: 2;
+  position: absolute;
+  top: 330px;
+  left: -70px;
+}
+
+.glow_circle_effect {
+  width: 974.49px;
+  height: 890.93px;
+  top: 162px;
+  left: -226px;
+  background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+  z-index: 1;
+  position: absolute;
+}
+
 .anchor {
   background-image: url(../images/anchor_img.png);
-  width: 530px;
-  height: 460px;
-  top: 137px;
-  left: -50px;
-  position: relative;
+  width: 600px;
+  height: 570px;
+  top: 380px;
+  position: absolute;
   background-size: cover;
+  z-index: 3;
 }
 
 .anchor_text {
   width: 245px;
   height: 20px;
-  top: 114.96px;
-  left: 270.22px;
-  font-family: Preahvihear;
+  top: 148.96px;
+  left: 370.22px;
+  font-family: Poppins;
   font-size: 19px;
   font-weight: 400;
   line-height: 97px;
   letter-spacing: -0.5px;
   text-align: center;
-  font-family: Preahvihear;
   color: white;
   position: absolute;
 }
@@ -60,18 +82,18 @@
 }
 
 .anchor_info1 {
-  width: 714px;
-  height: 75px;
-  top: 240px;
-  left: 555px;
-  font-family: Urbanist;
-  font-size: 74.74px;
-  font-weight: 600;
-  line-height: 74.74px;
+  width: 938px;
+  height: 96px;
+  top: 251px;
+  left: 650px;
+  font-family: Poppins;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 96px;
   letter-spacing: -0.015em;
   text-align: center;
-  color: white;
   position: absolute;
+  color: white;
 }
 
 .anchor_info1 span {
@@ -82,13 +104,13 @@
 }
 
 .anchor_info2 {
-  width: 751px;
+  width: 817px;
   height: 41px;
-  top: 325px;
-  left: 536px;
-  font-family: Manrope;
+  top: 376px;
+  left: 720px;
+  font-family: Poppins;
   font-size: 26.69px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 40.03px;
   text-align: center;
   color: #6C84D7;
@@ -96,13 +118,13 @@
 }
 
 .rnp_info {
-  width: 641px;
-  height: 163.85px;
-  top: 400px;
-  left: 599px;
-  font-family: Manrope;
+  width: 709px;
+  height: 164px;
+  top: 464px;
+  left: 760px;
+  font-family: Poppins;
   font-size: 21.85px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 32.77px;
   text-align: center;
   color: #D4D4D4;
@@ -110,17 +132,19 @@
 }
 
 .arrow {
-  height: 100px;
-  width: 10px;
-  left: 195px;
-  top: 140px;
+  width: 91.78px;
+  height: 81.86px;
+  top: 190px;
+  left: 282.37px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+  rotate: 171.07 deg;
+  background-image: url(../images/Arrow.png);
   position: absolute;
-  color: white;
-  font-size: 70px;
-  rotate: -50deg;
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .backgr {
     width: 100%;
     height: 780px;
@@ -172,7 +196,7 @@
   }
 
   .rnp_info {
-    width: 255px;
+    width: auto;
     height: auto;
     top: 550px;
     left: 35px;
@@ -304,4 +328,4 @@
     line-height: 30px;
     text-align: center;
   }
-}
+} */

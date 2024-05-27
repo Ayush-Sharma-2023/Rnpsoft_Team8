@@ -5,8 +5,10 @@ function Body_1() {
     return (
         <>
             <div className={style.backgr}>
+                <div className={style.glow_circle}></div>
+                <div className={style.glow_circle_effect}></div>
                 <div className={style.anchor}></div>
-                <div className={style.arrow}><PiArrowArcLeftThin /></div>
+                <div className={style.arrow}></div>
                 <div className={style.anchor_text}>Hello! I Am <span>Ms Kalinga AI</span></div>
                 <div className={style.anchor_info1}>Meet <span>Ms Kalinga</span> AI</div>
                 <div className={style.anchor_info2}>First Artificial Intelligence News Anchor In Kalinga TV Digital</div>

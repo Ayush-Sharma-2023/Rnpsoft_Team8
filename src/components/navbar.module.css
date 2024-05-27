@@ -2,8 +2,8 @@
   height: 5rem;
   background-color: #020715;
   display: flex;
-  width: 105rem;
-  gap: 60rem;
+  width: 100%;
+  gap: 70rem;
   position: fixed;
   z-index: 1000;
   
@@ -14,7 +14,7 @@
   width: 130px;
   height: 27.28px;
   top: 26.44px;
-  left: 10px;
+  left: 25px;
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
@@ -29,12 +29,6 @@
   display: flex;
   gap: 30px;
   visibility: visible;
-}
-
-.contact_info_content:hover{
-  cursor: pointer;
-  color: #8800FF;
-  ;
 }
 
 .contact_info_content {
@@ -53,6 +47,11 @@
 
 .contact_info_content p {
   width: max-content;
+}
+
+.contact_info_content p:hover{
+  cursor: pointer;
+  color: #8800FF;
 }
 
 .contact_info_button {
