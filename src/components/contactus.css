@@ -48,7 +48,7 @@
   
   .container {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       max-width: 1103px;
       margin: 0 auto;
       background-color: rgba(255, 255, 255, 0.04);
