@@ -16,9 +16,26 @@ import Contact from "./components/contactus.jsx"
 
 
 function App() {
+
+  const [showContact, setShowContact] = useState(false);
+
+  // Function to toggle the visibility
+  const handleContactClick = () => {
+    setShowContact(true);
+  };
+
+
   return(
+    <>
+      <Navbar onContactClick={handleContactClick} />
+      {showContact ? (
+        <Contact />
+      ) : (
+
   <>
-    <Navbar />
+
+  
+    {/* <Navbar /> */}
     <Body_1 />
     {/* <Body_2 /> */}
     <Body_3 />
@@ -27,6 +44,9 @@ function App() {
     {/* <Body_5 /> */}
     {/* <Contact /> */}
     <Footer />
+
+    </>
+      )}
 
   </>
   )
