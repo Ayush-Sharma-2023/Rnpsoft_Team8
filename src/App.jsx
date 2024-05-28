@@ -10,6 +10,8 @@ import Body_3 from './components/msAiAnchor.jsx'
 import Body_4 from './components/body_4.jsx'
 import Body_5 from './components/body_5.jsx'
 import Footer from './components/footer.jsx'
+import Contact from "./components/contact-us.jsx"
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
     <Multilingual />
     {/* <Body_4 /> */}
     {/* <Body_5 /> */}
+    <Contact />
     <Footer />
 
   </>

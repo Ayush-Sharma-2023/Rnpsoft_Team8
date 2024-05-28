@@ -1,6 +1,8 @@
-import './App.css';
-import Image from './images/chatai.png';
-function App() {
+
+import './contact-us.module.css';
+
+import Image from '../images/chatai.png';
+function Contact() {
   return (
     <>
       <div className="page-container">
@@ -24,11 +26,14 @@ function App() {
             <p className="response-time">We aim to respond within 24 hours</p>
           </div>
           <div className="right-section">
-            <img src={Image} alt="Chat AI" />
+          <img src={Image} alt="Chat AI" />
+
+            
+            
           </div>
         </div>
       </div>
     </>
   );
 }
-export default App;
+export default Contact;
