@@ -25,7 +25,7 @@ function App() {
     <Multilingual />
     {/* <Body_4 /> */}
     {/* <Body_5 /> */}
-    <Contact />
+    {/* <Contact /> */}
     <Footer />
 
   </>
