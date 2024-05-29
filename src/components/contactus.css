@@ -12,14 +12,16 @@
     align-items: center;
     min-height: 100vh;
     color: white;
-      text-align: center;
-      padding: 20px;
-      border-radius: 8px;
-      width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 95%;
+
   }
   
   .header {
       margin-bottom: 20px;
+      margin-top: 40px;
   }
   
   .header h1 {
