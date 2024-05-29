@@ -11,6 +11,7 @@ import Body_4 from './components/body_4.jsx'
 import Body_5 from './components/body_5.jsx'
 import Footer from './components/footer.jsx'
 import Contact from "./components/contactus.jsx"
+import React, { useRef } from 'react';
 
 
 
@@ -24,25 +25,48 @@ function App() {
     setShowContact(true);
   };
 
+  const homeRef = useRef(null);
+  const whyAIRef = useRef(null);
+  const demoRef = useRef(null);
+  const featuresRef = useRef(null);
 
   return(
+
     <>
-      <Navbar onContactClick={handleContactClick} />
-      {showContact ? (
-        <Contact />
-      ) : (
-
+    <Navbar 
+    onContactClick={handleContactClick}
+    homeRef={homeRef} 
+    whyAIRef={whyAIRef} 
+    demoRef={demoRef} 
+    featuresRef={featuresRef} 
+     />
+    {showContact ? (
+      <Contact />
+    ) : (
   <>
-
   
+
+<div ref={homeRef} className="section">
+        <Body_1 />
+      </div>
+      {/* <div ref={whyAIRef} className="section">
+        <Body_3 />
+      </div> */}
+      <div ref={demoRef} className="section">
+        <Body_3 />
+      </div>
+      <div ref={featuresRef} className="section">
+        <Multilingual />
+      </div>
+    
+
     {/* <Navbar /> */}
-    <Body_1 />
+    {/* <Body_1 /> */}
     {/* <Body_2 /> */}
-    <Body_3 />
-    <Multilingual />
+    {/* <Body_3 /> */}
+    {/* <Multilingual /> */}
     {/* <Body_4 /> */}
     {/* <Body_5 /> */}
-    {/* <Contact /> */}
     <Footer />
 
     </>

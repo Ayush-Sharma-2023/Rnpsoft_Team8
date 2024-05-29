@@ -1,3 +1,8 @@
 body{
     background-color: black;
 }
+
+.section{
+    padding-top: 60px; /* Adjust this value according to your navbar height */
+  height: 100vh; /* Example height to make scrolling visible */
+}
