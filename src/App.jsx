@@ -20,10 +20,16 @@ function App() {
 
   const [showContact, setShowContact] = useState(false);
 
-  // Function to toggle the visibility
-  const handleContactClick = () => {
-    setShowContact(true);
-  };
+ // Function to toggle the visibility of the Contact component
+ const handleContactClick = () => {
+  setShowContact(true);
+};
+
+// Function to handle the Home button click
+const handleHomeClick = () => {
+  setShowContact(false);
+  homeRef.current.scrollIntoView({ behavior: 'smooth' });
+};
 
   const homeRef = useRef(null);
   const whyAIRef = useRef(null);
@@ -35,6 +41,8 @@ function App() {
     <>
     <Navbar 
     onContactClick={handleContactClick}
+    onHomeClick={handleHomeClick} // Add the onHomeClick prop
+
     homeRef={homeRef} 
     whyAIRef={whyAIRef} 
     demoRef={demoRef} 
