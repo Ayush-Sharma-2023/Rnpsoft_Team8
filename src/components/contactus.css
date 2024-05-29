@@ -2,6 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
   
   
+  
   .page-container {
     font-family: 'Poppins', sans-serif;
     background: url('background.svg') no-repeat center center fixed;
@@ -10,12 +11,13 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     color: white;
     text-align: center;
     padding: 20px;
     border-radius: 8px;
-    width: 95%;
+    width: 95%;   
+    
 
   }
   
