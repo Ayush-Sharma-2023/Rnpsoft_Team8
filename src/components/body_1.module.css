@@ -221,7 +221,7 @@
   
   .anchor_info2 {
     top: 70px;
-    left: 1%;
+    left: 0%;
     height: auto;
     line-height: 19px;
     width: inherit;
@@ -233,5 +233,6 @@
     width: inherit;
     height: auto;
     line-height: 19px;
+    font-size: 0.9em;
   }
 }
