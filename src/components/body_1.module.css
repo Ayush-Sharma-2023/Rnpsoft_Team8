@@ -210,14 +210,14 @@
   }
 
   .anchor_info1 {
-    top: 120px;
+    top: 90px;
     left: 0%;
     height: auto;
     line-height: 0px;
   }
   
   .anchor_info2 {
-    top: 140px;
+    top: 110px;
     left: 1%;
     height: auto;
     line-height: 18px;
@@ -225,7 +225,7 @@
   }
   
   .rnp_info {
-    top: 160px;
+    top: 130px;
     left: 0%;
     width: inherit;
     height: auto;
