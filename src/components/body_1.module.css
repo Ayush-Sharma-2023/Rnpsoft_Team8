@@ -133,6 +133,8 @@
 
 @media screen and (max-width:425px) {
 
+
+
   .glow_circle {
     width: 200px;
     height: 200px;
@@ -197,27 +199,28 @@
 
   .backgr {
     display: block;
+    height: 70%;
   }
 
   .backgr1 {
     width: 100%;
-    height: 40%;
+    height: 50%;
   }
 
   .backgr2 {
     width: 100%;
-
+    height: 50%;
   }
 
   .anchor_info1 {
-    top: 70px;
+    top: 50px;
     left: 0%;
     height: auto;
     line-height: 0px;
   }
   
   .anchor_info2 {
-    top: 90px;
+    top: 70px;
     left: 1%;
     height: auto;
     line-height: 19px;
@@ -225,7 +228,7 @@
   }
   
   .rnp_info {
-    top: 110px;
+    top: 90px;
     left: 0%;
     width: inherit;
     height: auto;
