@@ -131,7 +131,7 @@
   position: absolute;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
 
   .glow_circle {
     width: 200px;
@@ -174,10 +174,10 @@
   }
 
   .arrow {
-    width: 41.78px;
-    height: 61.86px;
+    width: 21.78px;
+    height: 41.86px;
     top: 190px;
-    left: 162.37px;
+    left: 182.37px;
     padding: 0px;
     gap: 0px;
     opacity: 0px;
