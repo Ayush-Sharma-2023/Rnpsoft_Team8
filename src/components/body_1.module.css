@@ -44,7 +44,7 @@
   background-image: url(../images/anchor_img.png);
   width: 600px;
   height: 570px;
-  top: 330px;
+  top: 250px;
   position: absolute;
   background-size: cover;
   z-index: 3;
@@ -53,8 +53,8 @@
 .anchor_text {
   width: 245px;
   height: 20px;
-  top: 148.96px;
-  left: 370.22px;
+  top: 108.96px;
+  left: 470.22px;
   font-family: Poppins;
   font-size: 19px;
   font-weight: 400;
@@ -69,23 +69,10 @@
   color: #7942A5;
 }
 
-.arrow {
-  width: 91.78px;
-  height: 81.86px;
-  top: 190px;
-  left: 282.37px;
-  padding: 0px;
-  gap: 0px;
-  opacity: 0px;
-  rotate: 171.07 deg;
-  background-image: url(../images/Arrow.png);
-  position: absolute;
-}
-
 .anchor_info1 {
   width: 938px;
   height: 96px;
-  top: 101px;
+  top: 141px;
   font-family: Poppins;
   font-size: 96px;
   font-weight: 700;
@@ -106,7 +93,7 @@
 .anchor_info2 {
   width: 817px;
   height: 41px;
-  top: 141px;
+  top: 181px;
   left: 60px;
   font-family: Poppins;
   font-size: 26.69px;
@@ -120,7 +107,7 @@
 .rnp_info {
   width: 709px;
   height: 164px;
-  top: 191px;
+  top: 231px;
   left: 110px;
   font-family: Poppins;
   font-size: 21.85px;
@@ -134,8 +121,8 @@
 .arrow {
   width: 91.78px;
   height: 81.86px;
-  top: 190px;
-  left: 282.37px;
+  top: 150px;
+  left: 392.37px;
   padding: 0px;
   gap: 0px;
   opacity: 0px;
@@ -144,7 +131,7 @@
   position: absolute;
 }
 
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (max-width:768px) {
 
   .glow_circle {
     width: 200px;
