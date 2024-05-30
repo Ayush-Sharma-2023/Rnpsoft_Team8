@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+
+    .home {
+        display: block;
+    }
+
+    .whyAI {
+        display: none;
+    }
+
+    .demo {
+        display: none;
+    }
+
+    .fea {
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 import style from "./navbar.module.css"
 import React, { useRef } from 'react';
-
+import "./navbar.css"
 function Navbar({onHomeClick, onContactClick,homeRef, whyAIRef, demoRef, featuresRef }){ // { onContactClick } remove if 
 
     const scrollToSection = (ref) => {
@@ -16,10 +16,10 @@ function Navbar({onHomeClick, onContactClick,homeRef, whyAIRef, demoRef, feature
             <div className={style.contact_info_content} onClick={() => scrollToSection(demoRef)}><p><a href="#Demo">Demo</a></p></div>            
             <div className={style.contact_info_content} onClick={() => scrollToSection(featuresRef)}><p><a href="#Features">Features</a></p></div> */}
 
-            <div className={style.contact_info_content} onClick={onHomeClick}><p>Home</p></div>
-            <div className={style.contact_info_content} onClick={() => scrollToSection(whyAIRef)}><p>WhyAI</p></div>
-            <div className={style.contact_info_content} onClick={() => scrollToSection(demoRef)}><p>Demo</p></div>            
-            <div className={style.contact_info_content} onClick={() => scrollToSection(featuresRef)}><p>Features</p></div>
+            <div className={`${style.contact_info_content} home`} onClick={onHomeClick}><p>Home</p></div>
+            <div className={`${style.contact_info_content} whyAI`} onClick={() => scrollToSection(whyAIRef)}><p>WhyAI</p></div>
+            <div className={`${style.contact_info_content} demo`} onClick={() => scrollToSection(demoRef)}><p>Demo</p></div>            
+            <div className={`${style.contact_info_content} fea`} onClick={() => scrollToSection(featuresRef)}><p>Features</p></div>
 
 
 
@@ -29,7 +29,6 @@ function Navbar({onHomeClick, onContactClick,homeRef, whyAIRef, demoRef, feature
             {/* <div className={style.contact_info_content}><p>Our Teams</p></div> */}
             {/* onClick={onContactClick} */}
         </div>
-        <button className={style.dropDown}><i class="fa-solid fa-bars"></i></button>
     </div>
     </>)
 }
