@@ -191,7 +191,7 @@
   .anchor_info1,
   .anchor_info2,
   .rnp_info {
-    font-size: 0.7em;
+    font-size: 1em;
     width: inherit;
   }
 
@@ -220,7 +220,7 @@
     top: 140px;
     left: 1%;
     height: auto;
-    line-height: 0px;
+    line-height: 18px;
     width: inherit;
   }
   
@@ -229,6 +229,6 @@
     left: 0%;
     width: inherit;
     height: auto;
-    line-height: 17px;
+    line-height: 18px;
   }
 }
