@@ -2,7 +2,27 @@ body{
     background-color: black;
 }
 
-.section{
-    padding-top: 60px; /* Adjust this value according to your navbar height */
-  height: 100vh; /* Example height to make scrolling visible */
+.section{  
+  height: 100vh; 
+  padding-top: 30px;
+}
+
+.section_3{
+  height: 100vh; 
+  padding-top: 30px;
+  background-size: cover;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-image: url(./images/background_img3.png);  
+}
+.section_4{  
+  height: 100vh; 
+  padding-top: 100px;
+  background-size: cover;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-image: url(./images/background_img3.png);  
+  
+  
+ 
 }

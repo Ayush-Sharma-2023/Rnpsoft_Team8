@@ -60,10 +60,10 @@ const handleHomeClick = () => {
       {/* <div ref={whyAIRef} className="section">
         <Body_3 />
       </div> */}
-      <div ref={demoRef} className="section">
+      <div ref={demoRef} className="section_3">
         <Body_3 />
       </div>
-      <div ref={featuresRef} className="section">
+      <div ref={featuresRef} className="section_4">
         <Multilingual />
       </div>
     
