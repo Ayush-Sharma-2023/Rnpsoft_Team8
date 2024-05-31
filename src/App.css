@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url(./images/background_img3.png);  
 }
 
 .section{  
@@ -11,8 +12,8 @@ body{
   height: 100vh; 
   padding-top: 30px;
   background-size: cover;
-  background-position: 0px;
   background-repeat: no-repeat;
+  background-position: 0px -200px;
   background-image: url(./images/background_img3.png);  
 }
 .section_4{  
