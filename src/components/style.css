@@ -1,0 +1,150 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the HTML and body take up the full viewport height */
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif; /* You can change the font-family as needed */
+}
+
+/* Set up the main background styling */
+body {
+    background-image: url("background_img3.png"); /* Use the correct path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Text color for better readability against the background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Navbar styling */
+header {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for the navbar */
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the size of the logo as needed */
+}
+
+.nav-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; /* Align the navbar items to the right */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between navbar items */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* White text color for navbar links */
+    font-size: 1.2em;
+    transition: color 0.3s; /* Smooth transition for color change on hover */
+}
+
+nav a:hover {
+    color: #ff6347; /* Change the color on hover (Tomato color) */
+}
+
+/* Special styling for the "Contact Us" button */
+.contact-us {
+    font-size: 1.4em;
+    background: linear-gradient(45deg, blue, purple); /* Blue and purple gradient background */
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: background 0.3s; /* Smooth transition for background change on hover */
+}
+
+.contact-us:hover {
+    background: linear-gradient(45deg, purple, blue); /* Reverse the gradient on hover */
+}
+
+/* Style the main content area */
+main {
+    /* background: rgba(0, 0, 0, 0.6); Semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Add some space between the navbar and the main content */
+    width: 100%; /* Full width for the main content */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin: 20px auto; /* Center the main content */
+}
+
+/* Style the main heading */
+main h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(to right, #fff, #fff, blueviolet, blueviolet);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Style each section within the main content */
+main section {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1000px; /* Ensure sections have a reasonable width */
+}
+
+/* Style the section headings */
+main h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+main h3 span {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* Style the paragraphs */
+main p {
+    font-size: 1em;
+    line-height: 1.5; /* Improve readability */
+    width: 100%; /* Ensure full width usage */
+    max-width: 1000px; /* Ensure paragraphs have a reasonable width */
+    word-wrap: break-word; /* Prevent long words from overflowing */
+    display: block; /* Ensure block display for paragraphs */
+    text-align:justify;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background to blend with the page */
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white; /* Text color for the footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
