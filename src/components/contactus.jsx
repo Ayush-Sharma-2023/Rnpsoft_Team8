@@ -1,6 +1,6 @@
-import "./contactus.css"
-import React from 'react'
-import Image from './chatai.png'
+import "./contactus.css";
+import React from 'react';
+import Image from './chatai.png';
 
 export default function ContactUs() {
   return (
@@ -16,12 +16,12 @@ export default function ContactUs() {
             <p>Whether you have a question about features, trials, pricing, need a demo, or anything else, our team is ready to answer all your questions.</p>
             <form>
               <div className="form-group">
-                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required />
-                <input type="text" id="first-name" name="first-name" placeholder="First Name" required />
+              <input type="text" id="first-name" name="first-name" placeholder="First Name" required />
+              <input type="text" id="last-name" name="last-name" placeholder="Last Name" required />
               </div>
               <input type="email" id="email" name="email" placeholder="Email" required />
               <textarea id="message" name="message" placeholder="Message" required></textarea>
-              <button type="submit">Send it</button>
+              <button type="submit">Send it <i className="fas fa-rocket rocket"></i></button>
             </form>
             <p className="response-time">We aim to respond within 24 hours</p>
           </div>
@@ -30,6 +30,6 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
-    </>
-  )
+    </>
+  );
 }
