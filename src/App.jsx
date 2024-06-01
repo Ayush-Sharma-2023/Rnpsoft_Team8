@@ -10,6 +10,7 @@ import Body_5 from './components/body_5.jsx'
 import Footer from './components/footer.jsx'
 import Contact from "./components/contactus.jsx"
 import React, { useRef } from 'react';
+import Whyai from "./components/whyai.jsx"
 
 
 
