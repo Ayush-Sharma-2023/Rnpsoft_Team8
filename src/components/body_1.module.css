@@ -137,14 +137,14 @@
     width: 290px;
     height: 290px;
     border-radius: 50%;
-    top: 100px;
+    top: 130px;
     left: -50px;
   }
 
   .glow_circle_effect {
     width: 410px;
     height: 390.93px;
-    top: 50px;
+    top: 80px;
     left: -80px;
   }
 
@@ -152,7 +152,7 @@
     background-image: url(../images/anchor_img.png);
     width: 290px;
     height: 290px;
-    top: 140px;
+    top: 170px;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -160,7 +160,7 @@
   .anchor_text {
     width: max-content;
     height: max-content;
-    top: 0.96px;
+    top: 38.96px;
     left: 200.22px;
     font-size: 0.7em;
   }
@@ -168,7 +168,7 @@
   .arrow {
     width: 35.78px;
     height: 55.86px;
-    top: 40px;
+    top: 90px;
     left: 162.37px;
     rotate: 171.07 deg;
     background-image: url(../images/Arrow.png);
@@ -185,39 +185,44 @@
 
   .backgr {
     display: block;
-    height: 100%;
+    height: 100vh;
     top: 5%;
-    position: relative;
+    position: absolute;
   }
 
   .backgr1 {
     width: 100%;
     height: 50%;
+    position: absolute;
   }
 
   .backgr2 {
     width: 100%;
     height: 50%;
+    position: absolute;
   }
 
   .anchor_info1 {
-    top: 15%;
+    top: 510px;
     left: 0%;
     height: 50px;
     line-height: 38px;
     font-size: 2em;
+    position: absolute;
   }
   
   .anchor_info2 {
-    top: 30%;
+    top: 580px;
     left: 0%;
     height: auto;
     line-height: 19px;
     width: inherit;
+    position: absolute;
   }
   
   .rnp_info {
-    top: 38%;
+    top: 660px;
+    position: absolute;
     left: 0%;
     width: inherit;
     height: auto;
