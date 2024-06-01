@@ -53,6 +53,7 @@
   border-radius: 8px;
   padding: 20px;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .left-section, .right-section {
