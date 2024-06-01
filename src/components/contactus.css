@@ -177,3 +177,91 @@ form button:hover {
   transform: rotate(45deg);
   margin-left: 5px;
 }
+
+@media (max-width: 1200px) {
+  .header h1 {
+    font-size: 3.5rem;
+  }
+
+  .header .intro-text {
+    font-size: 1.1rem;
+  }
+
+  .left-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .left-section p {
+    font-size: 0.95rem;
+  }
+
+  .response-time {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .header .intro-text {
+    font-size: 1rem;
+  }
+
+  .left-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .left-section p {
+    font-size: 0.9rem;
+  }
+
+  .response-time {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header .intro-text {
+    font-size: 0.9rem;
+  }
+
+  .left-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .left-section p {
+    font-size: 0.85rem;
+  }
+
+  .response-time {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header .intro-text {
+    font-size: 0.8rem;
+  }
+
+  .left-section h2 {
+    font-size: 1.1rem;
+  }
+
+  .left-section p {
+    font-size: 0.8rem;
+  }
+
+  .response-time {
+    font-size: 0.8rem;
+  }
+}
