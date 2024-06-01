@@ -195,19 +195,20 @@
 
   .backgr2 {
     width: 100%;
-    height: 40%;
+    height: 50%;
   }
 
   .anchor_info1 {
-    top: 32%;
+    top: 20%;
     left: 0%;
     height: auto;
     line-height: 0px;
     font-size: 2em;
+    position: relative;
   }
   
   .anchor_info2 {
-    top: 170px;
+    top: 150px;
     left: 0%;
     height: auto;
     line-height: 19px;
@@ -215,7 +216,7 @@
   }
   
   .rnp_info {
-    top: 210px;
+    top: 190px;
     left: 0%;
     width: inherit;
     height: auto;
