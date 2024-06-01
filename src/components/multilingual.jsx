@@ -58,7 +58,7 @@ function multilingual() {
 
           </div>
 
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
 
         <div className={style.video_container}>
