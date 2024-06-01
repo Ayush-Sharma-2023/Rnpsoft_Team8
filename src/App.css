@@ -23,7 +23,10 @@ body{
   background-position: 0px;
   background-repeat: no-repeat;
   background-image: url(./images/background_img3.png);  
-  
-  
- 
+}
+
+@media screen and (max-width:767px) {
+  .section{
+    height: 820px;
+  }
 }
