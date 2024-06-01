@@ -7,7 +7,7 @@ function multilingual() {
 
         <div className={style.up_container}>
           <div className={style.solar}>
-            <div className={style.earth}>
+            <div className={style.vector}>
 
             </div>
             <div className={style.orbit}>
