@@ -328,22 +328,23 @@
   .glow_circle {
     width: 430px;
     height: 430px;
-    top: 350px;
+    top: 328px;
     left: -50px;
   }
 
   .glow_circle_effect {
     width: 580px;
-    height: 650.93px;
-    top: 250px;
+    height: 630.93px;
+    top: 202
+    px;
     left: -80px;
   }
 
   .anchor {
     background-image: url(../images/anchor_img.png);
     width: 430px;
-    height: 500px;
-    top: 430px;
+    height: 400px;
+    top: 382px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -351,13 +352,13 @@
   .anchor_text {
     width: max-content;
     height: max-content;
-    top: 187.96px;
+    top: 157.96px;
     left: 285.22px;
     font-size: 1em;
   }
 
   .arrow {
-    top: 234px;
+    top: 204px;
     left: 192.37px;
     background-image: url(../images/Arrow.png);
     background-size: contain;
@@ -374,7 +375,9 @@
   }
 
   .backgr {
-    height: 100%;
+    height: 800px;
+    position: absolute;
+    top: 9%;
   }
 
   .backgr1 {

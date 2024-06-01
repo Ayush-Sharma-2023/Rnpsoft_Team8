@@ -30,3 +30,9 @@ body{
     height: 820px;
   }
 }
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+  .section{
+    height: 800px;
+  }
+}
