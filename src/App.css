@@ -27,9 +27,3 @@ body{
   
  
 }
-
-@media screen and (max-width:767px){
-  .section{
-    height: 88vh;
-  }
-}
