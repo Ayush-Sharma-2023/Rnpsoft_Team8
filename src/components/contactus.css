@@ -158,6 +158,12 @@ form button:hover {
   border-radius: 8px;
 }
 
+.rocket {
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-left: 5px;
+}
+
 @media (min-width: 768px) {
   .container {
     flex-wrap: nowrap;
@@ -170,12 +176,6 @@ form button:hover {
   .form-group {
     flex-direction: row; 
   }
-}
-
-.rocket {
-  display: inline-block;
-  transform: rotate(45deg);
-  margin-left: 5px;
 }
 
 @media (max-width: 1200px) {
@@ -197,6 +197,15 @@ form button:hover {
 
   .response-time {
     font-size: 0.95rem;
+  }
+
+  form input,
+  form textarea {
+    width: 90%;
+  }
+
+  form textarea {
+    height: 90px;
   }
 }
 
@@ -220,6 +229,15 @@ form button:hover {
   .response-time {
     font-size: 0.9rem;
   }
+
+  form input,
+  form textarea {
+    width: 85%;
+  }
+
+  form textarea {
+    height: 80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -242,6 +260,15 @@ form button:hover {
   .response-time {
     font-size: 0.85rem;
   }
+
+  form input,
+  form textarea {
+    width: 80%;
+  }
+
+  form textarea {
+    height: 70px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -263,5 +290,14 @@ form button:hover {
 
   .response-time {
     font-size: 0.8rem;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+
+  form textarea {
+    height: 60px;
   }
 }
