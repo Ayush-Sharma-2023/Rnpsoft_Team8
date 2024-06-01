@@ -1,7 +1,7 @@
 import style from "./navbar.module.css"
 import React, { useRef } from 'react';
 import "./navbar.css"
-function Navbar({onHomeClick, onContactClick,homeRef, whyAIRef, demoRef, featuresRef }){ // { onContactClick } remove if 
+function Navbar({onHomeClick, onAiClick, onFeaClick, onDemoClick, onContactClick,homeRef, whyAIRef, demoRef, featuresRef }){ // { onContactClick } remove if 
 
     const scrollToSection = (ref) => {
         ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -17,9 +17,9 @@ function Navbar({onHomeClick, onContactClick,homeRef, whyAIRef, demoRef, feature
             <div className={style.contact_info_content} onClick={() => scrollToSection(featuresRef)}><p><a href="#Features">Features</a></p></div> */}
 
             <div className={`${style.contact_info_content} home`} onClick={onHomeClick}><p>Home</p></div>
-            <div className={`${style.contact_info_content} whyAI`} onClick={() => scrollToSection(whyAIRef)}><p>WhyAI</p></div>
-            <div className={`${style.contact_info_content} demo`} onClick={() => scrollToSection(demoRef)}><p>Demo</p></div>            
-            <div className={`${style.contact_info_content} fea`} onClick={() => scrollToSection(featuresRef)}><p>Features</p></div>
+            <div className={`${style.contact_info_content} whyAI`} onClick={onAiClick}><p>WhyAI</p></div>            
+            <div className={`${style.contact_info_content} demo`} onClick={onDemoClick}><p>Demo</p></div>            
+            <div className={`${style.contact_info_content} fea`} onClick={onFeaClick}><p>Features</p></div>
 
 
 

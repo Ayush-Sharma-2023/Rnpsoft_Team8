@@ -1,8 +1,50 @@
 body{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url(./images/background_img3.png);  
 }
 
-.section{
-    padding-top: 60px; /* Adjust this value according to your navbar height */
-  height: 100vh; /* Example height to make scrolling visible */
+.section{  
+  height: 100vh; 
+  padding-top: 30px;
+}
+
+.section_3{
+  height: 100vh; 
+  padding-top: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -200px;
+  background-image: url(./images/background_img3.png);  
+}
+.section_4{  
+  height: 100vh; 
+  padding-top: 100px;
+  background-size: cover;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-image: url(./images/background_img3.png);  
+}
+
+@media screen and (max-width:767px) {
+  .section{
+    height: 820px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .section{
+    height: 800px;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+  .section{
+    height: 790px;
+  }
+}
+
+@media screen and (min-width:1440px) and (max-width:1709px) {
+  .section{
+    height: 870px;
+  }
 }
