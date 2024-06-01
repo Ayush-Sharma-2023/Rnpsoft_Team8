@@ -9,32 +9,33 @@
 }
 
 .backgr1 {
-  width: 40%;
+  width: 32%;
   height: 100%;
 }
 
 .backgr2 {
-  width: 50%;
+  width: 68%;
   height: 100%;
 }
 
 .glow_circle {
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
+  width: 560px;
+  height: 560px;
+  border-radius: 50% 50% 50% 0%;
   background: #020715;
   border: 10px solid rgb(106, 62, 157);
+  border-color: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
   z-index: 2;
   position: relative;
-  top: 130px;
-  left: -70px;
+  top: 340px;
+  left: -80px;
 }
 
 .glow_circle_effect {
-  width: 700px;
+  width: 820px;
   height: 790.93px;
-  top: 140px;
-  left: -60px;
+  top: 210px;
+  left: -160px;
   background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
   z-index: 1;
   position: absolute;
@@ -42,19 +43,20 @@
 
 .anchor {
   background-image: url(../images/anchor_img.png);
-  width: 600px;
-  height: 570px;
-  top: 250px;
+  width: 530px;
+  height: 505px;
+  top: 445px;
   position: absolute;
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: 3;
 }
 
 .anchor_text {
   width: 245px;
   height: 20px;
-  top: 108.96px;
-  left: 470.22px;
+  top: 140.96px;
+  left: 365.22px;
   font-family: Poppins;
   font-size: 19px;
   font-weight: 400;
@@ -70,11 +72,11 @@
 }
 
 .anchor_info1 {
-  width: 938px;
+  width: 980px;
   height: 96px;
-  top: 141px;
+  top: 241px;
   font-family: Poppins;
-  font-size: 96px;
+  font-size: 103px;
   font-weight: 700;
   line-height: 96px;
   letter-spacing: -0.015em;
@@ -91,12 +93,12 @@
 }
 
 .anchor_info2 {
-  width: 817px;
+  width: 927px;
   height: 41px;
-  top: 181px;
-  left: 60px;
+  top: 278px;
+  left: 33px;
   font-family: Poppins;
-  font-size: 26.69px;
+  font-size: 28.69px;
   font-weight: 700;
   line-height: 40.03px;
   text-align: center;
@@ -105,12 +107,12 @@
 }
 
 .rnp_info {
-  width: 709px;
+  width: 799px;
   height: 164px;
-  top: 231px;
-  left: 110px;
+  top: 331px;
+  left: 90px;
   font-family: Poppins;
-  font-size: 21.85px;
+  font-size: 24.85px;
   font-weight: 400;
   line-height: 32.77px;
   text-align: center;
@@ -119,55 +121,53 @@
 }
 
 .arrow {
-  width: 91.78px;
-  height: 81.86px;
-  top: 150px;
-  left: 392.37px;
-  padding: 0px;
-  gap: 0px;
-  opacity: 0px;
-  rotate: 171.07 deg;
+  width: 111.78px;
+  height: 121.86px;
+  top: 190px;
+  left: 272.37px;
   background-image: url(../images/Arrow.png);
   position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width:767px) {
 
   .glow_circle {
-    width: 200px;
-    height: 200px;
+    width: 290px;
+    height: 290px;
     border-radius: 50%;
-    top: 80px;
-    left: -35px;
+    top: 160px;
+    left: -50px;
   }
 
   .glow_circle_effect {
-    width: 300px;
-    height: 270.93px;
-    top: 110px;
-    left: -60px;
+    width: 410px;
+    height: 390.93px;
+    top: 120px;
+    left: -80px;
   }
 
   .anchor {
     background-image: url(../images/anchor_img.png);
-    width: 200px;
-    height: 170px;
-    top: 190px;
-    background-size: contain;
+    width: 290px;
+    height: 290px;
+    top: 210px;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .anchor_text {
     width: max-content;
     height: max-content;
-    top: 73.96px;
-    left: 190.22px;
+    top: 70.96px;
+    left: 200.22px;
     font-size: 0.7em;
   }
 
   .arrow {
-    width: 26.78px;
-    height: 46.86px;
+    width: 35.78px;
+    height: 55.86px;
     top: 120px;
     left: 162.37px;
     rotate: 171.07 deg;
@@ -185,7 +185,7 @@
 
   .backgr {
     display: block;
-    height: 70%;
+    height: 100%;
   }
 
   .backgr1 {
@@ -199,14 +199,15 @@
   }
 
   .anchor_info1 {
-    top: 50px;
+    top: 120px;
     left: 0%;
     height: auto;
     line-height: 0px;
+    font-size: 2em;
   }
   
   .anchor_info2 {
-    top: 70px;
+    top: 170px;
     left: 0%;
     height: auto;
     line-height: 19px;
@@ -214,7 +215,7 @@
   }
   
   .rnp_info {
-    top: 90px;
+    top: 210px;
     left: 0%;
     width: inherit;
     height: auto;
@@ -275,7 +276,7 @@
   }
 
   .backgr {
-    height: 70%;
+    height: 100%;
   }
 
   .backgr1 {
@@ -318,25 +319,24 @@
 @media screen and (min-width:1024px) and (max-width:1439px){
 
   .glow_circle {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    top: 160px;
-    left: -45px;
+    width: 430px;
+    height: 430px;
+    top: 350px;
+    left: -50px;
   }
 
   .glow_circle_effect {
-    width: 520px;
-    height: 510.93px;
-    top: 160px;
-    left: -60px;
+    width: 580px;
+    height: 650.93px;
+    top: 250px;
+    left: -80px;
   }
 
   .anchor {
     background-image: url(../images/anchor_img.png);
-    width: 400px;
-    height: 370px;
-    top: 290px;
+    width: 430px;
+    height: 500px;
+    top: 430px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -344,20 +344,19 @@
   .anchor_text {
     width: max-content;
     height: max-content;
-    top: 80.96px;
-    left: 260.22px;
+    top: 187.96px;
+    left: 285.22px;
     font-size: 1em;
   }
 
   .arrow {
-    width: 80.78px;
-    height: 80.86px;
-    top: 130px;
-    left: 182.37px;
-    rotate: 171.07 deg;
+    top: 234px;
+    left: 192.37px;
     background-image: url(../images/Arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
+    width: 91.78px;
+  height: 101.86px;
   }
 
   .anchor_info1,
@@ -368,7 +367,7 @@
   }
 
   .backgr {
-    height: 80%;
+    height: 100%;
   }
 
   .backgr1 {
@@ -382,45 +381,68 @@
   }
 
   .anchor_info1 {
-    top: 150px;
-    left: -5%;
+    top: 280px;
+    left: -11%;
     height: auto;
     line-height: 0px;
-    font-size: 3.5em;
+    font-size: 3.7em;
   }
   
   .anchor_info2 {
-    top: 210px;
-    left: -5%;
+    top: 330px;
+    left: -11%;
     height: auto;
     line-height: 29px;
-    font-size: 1.5em;
+    font-size: 1.1em;
     width: inherit;
   }
   
   .rnp_info {
-    top: 240px;
-    left: 5%;
+    top: 360px;
+    left: 0%;
     width: 80%;
     height: auto;
     line-height: 23px;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
 @media screen and (min-width:1440px) and (max-width:1709px){
   .anchor_info1{
-    width: 780px;
-    font-size: 5rem;
-    left: 9%;
+    width: 950px;
+    font-size: 6rem;
+    top: 181px;
   }
   .anchor_info2{
-    left: 6%;
+    left: 1.5%;
+    font-size: 1.7rem;
+    top: 214px;
   }
   .rnp_info{
-    left: 14%;
+    left: 140px;
+    font-size: 1.3rem;
+    width: 700px;
+    top: 251px;
   }
   .glow_circle_effect {
-    top: 90px;
+    top: 150px;
+    width: 770px;
+  height: 760.93px;
+  }
+  .anchor{
+    top: 355px;
+  }
+  .glow_circle{
+    top: 270px;
+    width: 540px;
+  height: 540px;
+  }
+  .arrow{
+    left: 242px;
+    top: 140px;
+  }
+  .anchor_text{
+    top: 95px;
+    left: 330px;
   }
 }
