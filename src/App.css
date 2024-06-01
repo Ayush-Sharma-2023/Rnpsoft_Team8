@@ -36,3 +36,9 @@ body{
     height: 790px;
   }
 }
+
+@media screen and (min-width:1440px) and (max-width:1709px) {
+  .section{
+    height: 870px;
+  }
+}

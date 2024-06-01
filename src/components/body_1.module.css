@@ -435,7 +435,7 @@
     top: 251px;
   }
   .glow_circle_effect {
-    top: 150px;
+    top: 130px;
     width: 770px;
   height: 760.93px;
   }
@@ -454,5 +454,13 @@
   .anchor_text{
     top: 95px;
     left: 330px;
+  }
+  .anchor{
+    top: 320px;
+  }
+  .backgr {
+    height: 870px;
+    position: absolute;
+    top: 9%;
   }
 }
