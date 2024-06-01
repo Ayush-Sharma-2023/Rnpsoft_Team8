@@ -305,6 +305,7 @@
     font-size: 2.5rem;
     width: 100%;
     text-wrap: wrap;
+    left: -20px;
   }
   
   .anchor_info2 {
@@ -313,7 +314,7 @@
     width: 100%;
     text-wrap: wrap;
     font-size: 1rem;
-    left: 0px;
+    left: -20px;
   }
   
   .rnp_info {
@@ -324,7 +325,7 @@
     left: 25px;
     width: 80%;
     text-wrap: wrap;
-    left: 45px;
+    left: 20px;
   }
 }
 
