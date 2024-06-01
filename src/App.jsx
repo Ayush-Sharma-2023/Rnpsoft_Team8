@@ -45,7 +45,7 @@ const handleDemoClick = () => {
 const handleonAiClick = () => {
   setShowContact(false); 
   // setScrollTarget(whyAIRef);
-  setScrollTarget(featuresRef);
+  setScrollTarget(whyAIRef);
 };
 
 const handleonFeaClick = () => {
@@ -97,9 +97,9 @@ useEffect(() => {
 <div ref={homeRef} className="section">
         <Body_1 />
       </div>
-      {/* <div ref={whyAIRef} className="section">
-        <Body_3 />
-      </div> */}
+      <div ref={whyAIRef} className="section">
+        <Whyai />
+      </div>
       <div ref={demoRef} className="section_3">
         <Body_3 />
       </div>
