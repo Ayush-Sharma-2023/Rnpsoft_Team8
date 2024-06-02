@@ -1,9 +1,12 @@
-.footer {
-    background-color: #222;
+
+
+  .footer {
+    background-color: #0F0F0F;
     color: #fff;
+    
     padding: 20px 0;
     font-family: Arial, sans-serif;
-  }
+}
   
   .footer-content {
     display: flex;
@@ -50,7 +53,7 @@
   .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    border-top: 1px solid #444;
+    border-top: 1px solid #0F0F0F
   }
   
   @media (max-width: 768px) {
