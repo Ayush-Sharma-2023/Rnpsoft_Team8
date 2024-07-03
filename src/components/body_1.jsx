@@ -20,6 +20,7 @@ function Body_1() {
                         developers and engineers are committed to turning your vision
                         into reality. Whether you need robust software to streamline
                         your business processes or intuitive applications to engage. </div>
+                    <button className={style.get_started}>GET STARTED</button>
                 </div>
 
                 {/* <a id="Home"></a> */}
