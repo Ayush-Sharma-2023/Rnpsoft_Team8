@@ -135,8 +135,6 @@
 .get_started {
   width: 323.02px;
   height: 55px;
-  top: 817px;
-  left: 780px;
   border-radius: 6.73px;
   border: 0px solid transparent;
   background: rgba(57, 0, 115, 1);
@@ -150,6 +148,8 @@
   top: 760px;
   left: 850px;
   cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
 }
 
 @media screen and (max-width:767px) {

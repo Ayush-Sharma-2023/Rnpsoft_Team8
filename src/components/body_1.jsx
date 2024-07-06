@@ -1,4 +1,5 @@
 import style from "./body_1.module.css"
+import './body_1.css'
 import { PiArrowArcLeftThin } from "react-icons/pi";
 
 function Body_1() {
@@ -20,7 +21,7 @@ function Body_1() {
                         developers and engineers are committed to turning your vision
                         into reality. Whether you need robust software to streamline
                         your business processes or intuitive applications to engage. </div>
-                    <button className={style.get_started}>GET STARTED</button>
+                    <button className={`${style.get_started} grow_skew_forward`}>GET STARTED</button>
                 </div>
 
                 {/* <a id="Home"></a> */}

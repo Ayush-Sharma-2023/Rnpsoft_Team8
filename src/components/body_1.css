@@ -1,0 +1,28 @@
+button:hover {
+  color: black;
+}
+button::after {
+  content: "";
+  background: rgb(132, 15, 248);
+  position: absolute;
+  z-index: -1;
+  display: block;
+}
+
+button.grow_skew_forward::after {
+  transition: all 0.3s ease;
+}
+button.grow_skew_forward:hover::after {
+  transition: all 0.3s ease-out;
+}
+
+button.grow_skew_forward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+}
+button.grow_skew_forward:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+}
