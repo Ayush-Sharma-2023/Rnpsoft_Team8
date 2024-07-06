@@ -9,7 +9,7 @@ function Body_5() {
         <div className={style.backgr}>
         <br />
         <br />
-        <div className={style.faq}>FAQs </div>
+        <div className={style.faq}>FAQS </div>
         <br />
         <div className={style.text}>Ask us <span>anything</span></div>
         <br />
