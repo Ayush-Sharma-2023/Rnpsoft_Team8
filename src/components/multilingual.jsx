@@ -61,12 +61,12 @@ function multilingual() {
 
           </div>
 
-          <br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br />
         </div>
 
         {/* <div className="marquee"> */}
 
-          <Marquee play speed={300}>
+          <Marquee play speed={300} pauseOnHover>
           
 
           
