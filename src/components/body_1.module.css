@@ -21,14 +21,38 @@
 .glow_circle {
   width: 560px;
   height: 560px;
-  border-radius: 50% 50% 50% 0%;
-  background: #020715;
-  border: 10px solid rgb(106, 62, 157);
-  border-color: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+  border-radius: 50%;
+  background: linear-gradient(to right, rgba(107,63,157), rgb(48,28,95));
+  display:grid;
+  place-items:center;
+  animation: rotate 1.7s linear infinite;
   z-index: 2;
   position: relative;
   top: 370px;
   left: -80px;
+}
+
+.glow_circle:before{
+  content:"";
+  height:540px;
+  width:540px;
+  border-radius:50%;
+  background:black;
+  position:relative;
+  top:0px;
+  left:0px;
+}
+
+@keyframes rotate {
+  0%{
+    transform:rotate(0deg);
+  }
+  50%{
+    trasnform:rotate(180deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
 }
 
 .glow_circle_effect {
@@ -158,8 +182,13 @@
     width: 290px;
     height: 290px;
     border-radius: 50%;
-    top: 130px;
+    top: 140px;
     left: -50px;
+  }
+
+  .glow_circle:before{
+    width: 270px;
+    height: 270px;
   }
 
   .glow_circle_effect {
@@ -283,6 +312,11 @@
     left: -60px;
   }
 
+  .glow_circle:before{
+    height:360px;
+    width:360px;
+  }
+
   .anchor {
     background-image: url(../images/anchor_img.png);
     width: 390px;
@@ -381,6 +415,11 @@
     height: 430px;
     top: 328px;
     left: -50px;
+  }
+
+  .glow_circle:before{
+    width:410px;
+    height: 410px;
   }
 
   .glow_circle_effect {
@@ -507,6 +546,11 @@
     top: 300px;
     width: 540px;
     height: 540px;
+  }
+
+  .glow_circle:before{
+    width: 520px;
+    height: 520px;
   }
 
   .arrow {
