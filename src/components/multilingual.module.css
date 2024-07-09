@@ -14,14 +14,17 @@ h1 {
   font-weight: 800;
   line-height: 87.55px;
   letter-spacing: -0.03em;
-  text-align: center;
+  text-align: left;
   font-family: Poppins;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     90deg,
     #ffffff 0%,
     #9a84d8 71.5%,
     #451db8 100%
-  );
+    
+  ); */
+  background: linear-gradient(90deg, #4050F2 0%, #9F30E2 71.5%);
+
   /* -webkit-background-clip: text; */
   background-clip: text;
   color: transparent;
@@ -29,22 +32,37 @@ h1 {
 p {
   font-family: Poppins;
   color: white;
-  text-align: center;
+  text-align: left ;
 }
 
 .container {
   display: grid;
-  justify-content: flex-end;
+  justify-content: flex-start;
   /* text-align: right; */
   align-items: center;
   padding-right: 15rem;
+  margin-left: 100px;
 }
 
+/* @keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 .video_container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); 
   gap: 1rem;
   padding-left: 4rem;
+  /* overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+
 }
 
 .video {
@@ -53,11 +71,110 @@ p {
 
   box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.3);
   border-radius: 10px;
+  flex: 0 0 auto;
+  
 }
 
 .video:hover {
   box-shadow: none;
+} */
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(10%);
+  }
 }
+
+
+
+/* .video_container {
+  display: flex;
+  gap: 1rem;
+  
+  width: calc(200% + 5rem); 
+}
+
+.video {
+  width: calc(33.333% + 20rem);
+  max-height: 90%;
+  box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  flex: 0 0 auto;
+}
+
+.video:hover {
+  box-shadow: none;
+} */
+
+/* New feature box */
+.featuresContainer {
+  display: flex;
+  gap: 1rem;
+  
+  /* animation: marquee 15s linear infinite;  */
+  width: calc(200% + 5rem); /* Adjust based on the number of videos and gap */
+}
+
+.feature {
+  border: 10px solid transparent; /* Set border to transparent */
+
+  box-shadow: 0 0 20px 10px rgba(136, 0, 255, 0.8); /* Adjust blur and spread radius, and color */
+
+  
+  
+  /* box-shadow: 0 0 20px 20px rgba(136, 0, 255, 1); */
+  /* box-shadow: 10px 10px 20px 20px rgba(136, 0, 255, 1); */
+  
+
+  border-radius: 10px;
+  /* flex: 0 0 auto; */
+  background-color: white;
+  width: 200px;
+  height: 223px;
+  padding: 0px 61px 0px 60px;
+  gap: 10px;
+  margin-left: 10rem;
+  
+  border-radius: 44px;
+  opacity: 10px;
+  display: flex;
+  align-items: center ;
+  
+  
+
+}
+
+.text{
+  width: 197px;
+height: 44px;
+top: 90px;
+left: 60px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 36px;
+font-weight: 900;
+line-height: 43.57px;
+text-align: left;
+
+
+
+}
+
+.feature:hover {
+  box-shadow: none;
+}
+
+/* New feature box ends */
+
+
+/* ________ */
+
+
 
 /* .video-container video {
     width: 100%; 
@@ -83,7 +200,7 @@ p {
   position: absolute;
   background-size: 40px;
   margin-top: 120px;
-  margin-left: 260px;
+  margin-left:  1260px;
   animation: rotate 10s infinite linear;
 }
 
@@ -102,7 +219,7 @@ p {
   border: 1px solid #505050;
   position: absolute;
   border-radius: 100%;
-  margin-left: 180px;
+  margin-left: 1180px;
   margin-top: 40px;
 }
 
@@ -135,7 +252,7 @@ p {
   position: absolute;
   border-radius: 50%;
   margin-top: 90px;
-  margin-left: 230px;
+  margin-left: 1230px;
 }
 
 .logo2 {
@@ -171,7 +288,7 @@ p {
   position: absolute;
   border-radius: 50%;
   margin-top: 65px;
-  margin-left: 205px;
+  margin-left: 1205px;
 }
 
 .logo3 {
@@ -203,7 +320,7 @@ p {
   position: absolute;
   border-radius: 50%;
   margin-top: -10px;
-  margin-left: 130px;
+  margin-left: 1130px;
 }
 
 .logo4 {
@@ -235,7 +352,7 @@ p {
   position: absolute;
   border-radius: 50%;
   margin-top: 15px;
-  margin-left: 155px;
+  margin-left: 1155px;
 }
 
 .logo5 {
