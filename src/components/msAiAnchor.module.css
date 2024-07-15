@@ -60,7 +60,7 @@
   
 }
 
-.language{
+/* .language{
   width: 500px;
   height: 500px;
   
@@ -68,7 +68,7 @@
   border-radius: 50%;
   overflow: hidden;
   
-}
+} */
 .languagePic{
   
   width: 450px;
@@ -79,7 +79,27 @@
   background-position: center;
   background-size: 700px;
   margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+      box-shadow: 0 0 80px 10px rgba(111, 0, 255, 1);
 }
+.languageSelect{
+  
+  width: 450px;
+  height: 450px;
+  margin-top: 150px;
+  border-radius: 50%;
+  background-image: url(../images/language.jpg);  
+  background-position: center;
+  background-size: 700px;
+  margin-left: -250px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+      box-shadow: 0 0 80px 10px rgba(111, 0, 255, 1);
+}
+
+
+/* languageSelect */
 .languageInfo{
   margin-top: 500px;
   width: 250px;
@@ -111,18 +131,30 @@ text-align: left;
 }
 
 .video_container {
-  display: flex;
-  justify-content: center;
-
-  height: 100%;
-  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
   
+  /* margin-left: 200px; */
+  margin-top: 100px;
+  margin-left: 400px;
+  z-index: 1;
+
+  height: 300px; 
+   /* width: 100%; */
+  
+}
+.langBox{
+  display: flex;
+}
+.lang{
+  font-size: 50px;
+  text-align: center;
 }
 
 .video {
-  max-width: 40%;
-  max-height: 40%;
-  box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.3);
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 0 20px 20px rgba(231, 2, 2, 0.3);
   border-radius: 10px;
 }
 
