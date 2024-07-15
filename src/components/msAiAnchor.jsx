@@ -19,7 +19,8 @@ function msAiAnchor() {
 
     <>
           {activeSection == 'section1' ? (
-               <div className={style.backgr}>
+                 /*This section is the default section i.e "MS KALINGA IS MULTILINGUAL"  */
+                 <div className={style.backgr}>
                <br />
                <br />
                <div className="Texts">
@@ -38,26 +39,29 @@ function msAiAnchor() {
                <div onClick={handleClick} className={style.languagePic}>
                  <p className={style.languageInfo} >Press here to hear her in your own language</p>
                  
-               {/* <img className={style.language} src={language} alt="" /> */}
+               
                </div>
        
-               {/* <br />
-               <br /> */}
+              
        
                {/* <div className={style.video_container}>
                  <video autoPlay loop muted controls className={style.video}>
-                   <source src={kalingaVideo} type="video/mp4" />
-                   Your browser does not support the video tag.
+                 <source src={kalingaVideo} type="video/mp4" />
+                 Your browser does not support the video tag.
                  </video>
                  
-               </div> */}
+                 </div> */}
        
                
              </div>
-
+             /* MS KALINGA IS MULTILIGUAL SECTION ENDS */
+             
+             
 ):(
   
-    <>
+  <>
+  {/* THIS SECTION EXECUTES IF THE PICTURE IS PRESSED i.e THE CHOOSE LANGUAGE PART*/}
+
     <div className={style.langBox}>
     
   <div className={style.languageSelect}>
