@@ -10,7 +10,7 @@ function msAiAnchor() {
   const [activeSection, setActiveSection] = useState('section1');
 
   const handleClick = () => {
-    // setActiveSection(prevSection => (prevSection === 'section1' ? 'section2' : 'section1'));
+    
     setActiveSection('section2');
   };
 
