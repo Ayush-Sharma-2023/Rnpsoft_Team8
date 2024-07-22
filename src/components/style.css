@@ -8,6 +8,7 @@
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
   }
+  
 
 
 
@@ -53,4 +54,225 @@
 section, h3, .whyaip{
     margin-left: 30px;
     font-family: Poppins;
+} 
+
+p{
+    text-align: center;
+    
 }
+
+.upP{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 500;
+line-height: 54px;
+text-align: center;
+width: 1200px;
+margin-left: 150px;
+
+
+}
+.downP{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+width: 1200px;
+margin-left: 150px;
+
+
+}
+
+.boxC{
+    display: flex;
+    
+    justify-content: space-around; 
+
+}
+.upP{
+    color:#6D34B8
+}
+
+.box{
+    width: 400px;
+height: 100.3px;
+/* top: 643px;
+left: 201px; */
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+background: linear-gradient(179.96deg, #150633 25.19%, #6D34B8 99.97%);
+box-shadow: 0px 2.9px 20.92px 0px rgba(255, 255, 255, 0.25);
+justify-content: center;
+
+
+
+}
+.ptext{
+    padding-top: 30px;
+    color: white;
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+
+
+}
+
+
+
+/* styles.css */
+
+/* Container Div */
+
+/* styles.css */
+
+/* Background Section */
+/* .backgr {
+    /* background-image: url(../images/background_img3.png), url(../images/background_img.png);
+    width: 100%;
+    height: 900px;
+    /* background-blend-mode: screen; */
+    /* background-position: center center, center center; 
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+}
+
+/* Heading Styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.heading {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, #fff, #fff, blueviolet, blueviolet);
+    background-clip: text;
+    color: transparent;
+}
+
+/* Section and Heading Styles 
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.whyaip {
+    font-size: 23px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+section, h3, .whyaip {
+    /* margin-left: 30px; 
+    font-family: Poppins;
+}
+
+/* Container Div 
+.container {
+    display: grid;
+    width: 100%;
+    background-color: transparent;
+    height: 1000px;
+
+    /* flex-direction: row; */
+    /* width: 100%; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; 
+}
+
+/* Row Layouts 
+.row, .first-row, .second-row, .third-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Card Styles 
+.card {
+    /* width: 30%; 
+    height: 150px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.card:first-child {
+    margin-top: 0;
+}
+
+/* Text Styles 
+.text-white {
+    font-weight: 800;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 6rem;
+    margin-right: 0.5rem;
+}
+
+.text-blue-800 {
+    font-weight: 800;
+    color: #1e40af;
+    font-family: sans-serif;
+    font-size: 6rem;
+    margin-left: 0.75rem;
+}
+
+.text-blue-600 {
+    font-weight: 800;
+    color: #2563eb;
+    font-family: sans-serif;
+    font-size: 2.25rem;
+    margin-left: 2.5rem;
+    margin-top: 1.25rem;
+}
+
+.text-white-small {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+/* Inner Div Styles 
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 75%; 
+}
+
+.inner-div-third-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 75%; 
+} 
+*/
